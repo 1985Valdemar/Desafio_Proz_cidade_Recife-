@@ -1,0 +1,70 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Adicionando a fonte Roboto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para os títulos das seções */
+h2 {
+    color: #007bff;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+}
+
+/* Estilos para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para tornar o site responsivo */
+@media screen and (max-width: 768px) {
+    header, footer {
+        padding: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+/* Estilos para o conteúdo da seção */
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos para o mapa */
+iframe {
+    max-width: 100%;
+    width: 600px; /* Ajuste conforme necessário */
+    height: 450px; /* Ajuste conforme necessário */
+    border: 0;
+}
+
