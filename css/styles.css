@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif; /* Adicionando a fonte Roboto */
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 /* Estilos para o cabeçalho */
@@ -13,6 +14,28 @@ header {
     text-align: center;
 }
 
+/* Estilos para os links no cabeçalho */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
 /* Estilos para os títulos das seções */
 h2 {
     color: #007bff;
@@ -21,6 +44,21 @@ h2 {
 /* Estilos para as seções */
 section {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para centralizar o texto e ajustar ao tamanho da imagem */
+section p {
+    color: #333;
+    text-align: center; /* Centraliza horizontalmente */
+    max-width: 600px; /* Define o tamanho máximo da largura do texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
 
 /* Estilos para as imagens */
@@ -33,9 +71,10 @@ img {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #007bff;
+    color: white;
     text-align: center;
+    padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -51,15 +90,6 @@ footer {
     }
 }
 
-/* Estilos para o conteúdo da seção */
-section {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
 /* Estilos para o mapa */
 iframe {
     max-width: 100%;
@@ -67,4 +97,3 @@ iframe {
     height: 450px; /* Ajuste conforme necessário */
     border: 0;
 }
-
